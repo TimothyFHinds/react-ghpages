@@ -50,4 +50,4 @@ git push -u origin master
 
 #### You can find the link to the site within your Repository Settings Page
 
-[pagelink][https://timothyfhinds.github.io/react-ghpages/]
+[pagelink]: https://timothyfhinds.github.io/react-ghpages/
