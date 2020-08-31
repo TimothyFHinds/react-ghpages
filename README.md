@@ -13,8 +13,7 @@ cd react-ghpages
 npm install gh-pages --save-dev
 ```
 
-## Edit the Package.Json file
-#### Add the homepage link before *name*
+#### *Inside Package.Json*: Add the homepage link before *name*
 ```
 {
   "homepage": "http://TimothyFHinds.github.io/react-ghpages",
@@ -22,7 +21,7 @@ npm install gh-pages --save-dev
   ..
 ```
 
-#### Add new scripts for deployment
+#### *Inside Package.Json*: Add new scripts for deployment
 ```
 "scripts": {
   "predeploy": "npm run build",
@@ -30,9 +29,9 @@ npm install gh-pages --save-dev
   ..
 ```
 
-#### Remove /build from .gitignore
+#### *Inside .gitignore*: Remove /build 
 
-#### Create a *Public* GitHub Repository
+#### [Create a *Public* GitHub Repository][newrepo]
 
 #### Link to your GitHub Repository
 ```
@@ -50,4 +49,5 @@ git push -u origin master
 
 #### You can find the link to the site within your Repository Settings Page
 
+[newrepo]: https://github.com/new
 [pagelink]: https://timothyfhinds.github.io/react-ghpages/
